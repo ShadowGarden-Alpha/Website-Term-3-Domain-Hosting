@@ -1,0 +1,134 @@
+
+
+.dynapuff-uniquifier {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+html {
+    background-color: #db8c8c;
+    display: flex;
+    justify-content: center;
+    font-family: "DynaPuff", system-ui;
+}
+
+body {
+    background-color: #eb9028;
+    width: 100%;
+    height: 90vh;
+    min-height: 600px;
+    max-width: 1050px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+my-header {
+    display: contents;
+
+}
+
+my-footer {
+    display: contents;
+}
+
+my-opener {
+    display: contents;
+}
+
+header {
+    /* border-bottom: 4px solid #3e9775; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#navigationButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+#navigationButtons button {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3e9775;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#navigationButtons button:hover {
+    background-color: #2e6b55;
+}
+
+#contentButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+#contentButtons button {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3e9775;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contentButtons button:hover {
+    background-color: #2e6b55;
+}
+
+footer {
+    border-top: 4px solid #3e9775;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#opener {
+    background-color: #fff34a;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#opener form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+#opener from label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
